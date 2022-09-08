@@ -1,0 +1,102 @@
+body{
+    background: rgb(198, 202, 194);
+}
+
+h2{
+    margin-left: 520px;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color: black;
+}
+.cuadro-calculadora{
+    border: 2px solid black;
+    border: 2px solid black;
+    width: 54%;    
+    float: left;
+    margin: 50px 5px 0px 27px;
+}
+
+.ventana-resultado{
+    border: 1px solid black;
+    height: 100px;
+}
+
+.result-label{
+    margin-left: 8px;
+}
+
+.process-window{
+    border: 2px solid grey;
+    width: 180px;
+    height: 61px;
+    float: right;
+    margin: 18px 36px 0px 0px;
+}
+
+.ventana-resultado .input-resultado{
+    width: 347px;
+    height: 70px;
+    margin-top: 13px;
+}
+
+.calc-header span{
+    margin-right: 87px;
+}
+
+.op-table{
+    background:gray ;
+}
+
+.op-table .espc-carac{
+    background: rgb(202, 199, 199);
+}
+
+.op-table .ppal{
+    padding-left: 12px;
+}
+.op-table .fila-op-esp{
+    background: rgb(202, 199, 199);
+}
+
+/*proceso de operaciones*/
+.proceso{
+    
+    width: 40%;
+    float: right;
+    /*height: 300px;*/
+    min-height: auto;
+    margin: 49px 42px 0px 0px;
+    
+}
+
+.operacion{
+    /*border: 3px solid red;*/
+    width: 50px;
+    margin: 4px 0px 0px 26px;
+    height: 53px;
+    width: 461px;
+    padding: 9px;
+    padding-left: 18px;
+}
+
+/*rabis bin*/
+.rabish-bin{
+    border: 1px solid;
+    float: right;
+    border: 1px solid;
+    display: none;
+}
+
+.rabish-bin img{
+    width: 40px;
+}
+
+.rabish-bin img:hover{
+    cursor: pointer;
+}
