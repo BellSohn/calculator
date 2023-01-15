@@ -64,19 +64,17 @@ a:hover{
     background: rgb(202, 199, 199);
 }
 
-/*proceso de operaciones*/
+/*operation process*/
 .proceso{
     
     width: 40%;
-    float: right;
-    /*height: 300px;*/
+    float: right;   
     min-height: auto;
     margin: 49px 42px 0px 0px;
     
 }
 
-.operacion{
-    /*border: 3px solid red;*/
+.operacion{    
     width: 50px;
     margin: 4px 0px 0px 26px;
     height: 53px;
@@ -85,7 +83,7 @@ a:hover{
     padding-left: 18px;
 }
 
-/*rabis bin*/
+/*rabish bin*/
 .rabish-bin{
     border: 1px solid;
     float: right;
